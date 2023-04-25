@@ -7,7 +7,6 @@ int main(void)
     int *b = (int *) malloc(sizeof(int));
 
     scanf("%d%d", a, b);
-    //scanf("%d", b);
 
     if (*a > *b) {
         printf("Max number: %d", *a);
