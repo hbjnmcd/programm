@@ -4,7 +4,7 @@
 union prog {
  unsigned long a;
  char b[8];
-}
+};
 
 int main(void) {
   union prog del;
