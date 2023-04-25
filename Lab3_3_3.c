@@ -2,13 +2,7 @@
 #include <stdlib.h>
 
 enum Week {
-    Monday = 1,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday,
+    Monday = 1, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 };
 
 int main (void) {
