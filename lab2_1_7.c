@@ -6,14 +6,13 @@ int main() {
     int i, n;
     scanf("%d", &n);
 
-    arr = (char **)malloc(sizeof(char *) * n); // массив указателей на строки. Каждую строку надо будет создавать отдельно. И память ей выделять
+    arr = (char **)malloc(sizeof(char *) * n);
 
     for (i = 0; i<n; i++) {
         char *s;
         arr[i] = (char*)malloc(1024);
         arr[i][0] = '\0';
         scanf("%s", arr[i]);
-        //printf("%s \n", arr[i]);
     }
 
     for (i =0; i < n; i++){
