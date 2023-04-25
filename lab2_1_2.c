@@ -9,7 +9,6 @@ int main(void)
     printf("Input two numbers:\n");
     printf("_______________\n");
     scanf("%d\n", a);
-    //printf("___________\n");
     scanf("%d", b);
     printf("_______________\n");
 
