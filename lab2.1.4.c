@@ -3,7 +3,6 @@
 
 int main(void) {
     int n;
-    //double x = 0;
     printf(" Input length of array:\n");
     scanf("%d", &n);
     double *A = (double *) malloc (n * sizeof(double));
