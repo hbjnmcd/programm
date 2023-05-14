@@ -14,17 +14,18 @@ void swap_fun (int *a) {
 int main()
 {
     int *A = (int *) malloc (12 * sizeof(int));
-    printf("Your array:\n");
+    printf("Your array:\n{");
     for (int i = 0; i < 12; i++) {
         A[i] = i;
         printf("%d ", A[i]);
     }
-    printf("\n\nNow your array:\n");
+    printf("}\n\nNow your array is:\n{");
 
     swap_fun(A);
     for (int i = 0; i < 12; i++) {
         printf("%d ", A[i]);
     }
+    printf("}");
 
     return 0;
 }
